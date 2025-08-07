@@ -2,12 +2,13 @@
 This project presents a deep learning-based solution to classify fruits as fresh or rotten using Convolutional Neural Networks (CNNs). The aim is to build an intelligent system that can identify the freshness of fruits based on image inputs.
 <hr>
 
-📌 Project Overview
-Built a CNN model using TensorFlow and Keras for binary classification.
+📌 Project Overview:
 
-Trained the model on a dataset containing images of various fruits categorized as fresh or rotten.
+1. Built a CNN model using TensorFlow and Keras for binary classification.
 
-Used Roboflow for image preprocessing, augmentation, and dataset pipeline generation.
+2 . Trained the model on a dataset containing images of various fruits categorized as fresh or rotten.
+
+3  .Used Roboflow for image preprocessing, augmentation, and dataset pipeline generation.
 <hr>
 
 🧠 Tech Stack
