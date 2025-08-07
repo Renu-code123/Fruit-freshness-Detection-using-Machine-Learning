@@ -1,53 +1,75 @@
 # Fruit-freshness-Detection-using-Machine-Learning
-This project is a deep learning-based solution to classify fruits as fresh or rotten using Convolutional Neural Networks (CNNs). The goal is to provide an intelligent system that can automatically determine the freshness of fruits from their images.
+This project presents a deep learning-based solution to classify fruits as fresh or rotten using Convolutional Neural Networks (CNNs). The aim is to build an intelligent system that can identify the freshness of fruits based on image inputs.
+<hr>
 
 📌 Project Overview
-The model is trained using a dataset containing images of various fruits in two categories: fresh and rotten. The CNN model is developed using TensorFlow and Keras to perform binary classification.
+Built a CNN model using TensorFlow and Keras for binary classification.
 
-We used Roboflow to preprocess, augment, and generate a dataset pipeline that makes model training efficient and robust.
+Trained the model on a dataset containing images of various fruits categorized as fresh or rotten.
+
+Used Roboflow for image preprocessing, augmentation, and dataset pipeline generation.
+<hr>
 
 🧠 Tech Stack
-Python 🐍
+Python
 
-TensorFlow & Keras 🧠
+TensorFlow & Keras
 
-NumPy & Matplotlib 📊
+NumPy
 
-VS Code for deployment(IDE)
+Matplotlib
 
-Streamlit (for demo app – optional)
+VS Code (Development Environment)
+
+Streamlit (Optional - for web demo deployment)
+<hr>
 
 📂 Dataset
-The dataset used for training and validation was obtained from Roboflow and contains labeled images in the categories:
+Collected and prepared using Roboflow.
 
-Fresh Apple, Rotten Apple
+Includes labeled images for:
 
-Fresh Banana, Rotten Banana
+Fresh Apple 🍏 / Rotten Apple 🍎
 
-Fresh Orange, Rotten Orange
+Fresh Banana 🍌 / Rotten Banana 🍌
 
-Roboflow helped with:
+Fresh Orange 🍊 / Rotten Orange 🍊
+<hr>
 
-Uploading raw images
+Roboflow tasks:
 
-Image augmentation
+Upload raw images
 
-Exporting dataset in TensorFlow-ready format
+Apply augmentation techniques
+
+Export dataset in TensorFlow-compatible format
+<hr>
 
 🧪 Model Architecture
-Input Layer: Image (resized to 224x224)
+Input Layer: Resized fruit images to 224x224
 
-3 Convolutional layers with MaxPooling
+Convolutional Layers:
 
-Flatten layer
+3 convolutional layers with MaxPooling
 
-Dense layer with Dropout
+Flatten Layer
 
-Output layer with Softmax (for multi-class classification)
+Dense Layer with Dropout (for regularization)
+
+Output Layer: Softmax activation for multi-class classification
+<hr>
+
+Model Parameters:
 
 Loss Function: categorical_crossentropy
+
 Optimizer: Adam
-Metric: Accuracy
+
+Evaluation Metric: Accuracy
+<hr>
 
 ✅ Results
-The model achieved over 90% accuracy on the validation set. It successfully classifies fruit images into fresh or rotten categories.
+Achieved >90% accuracy on the validation dataset.
+
+Accurately classifies images into fresh or rotten categories across all fruit types.
+
