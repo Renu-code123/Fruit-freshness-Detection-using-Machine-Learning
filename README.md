@@ -30,11 +30,11 @@ Collected and prepared using Roboflow.
 
 Includes labeled images for:
 
-Fresh Apple 🍏 / Rotten Apple 🍎
+Fresh Apple  / Rotten Apple
 
-Fresh Banana 🍌 / Rotten Banana 🍌
+Fresh Banana  / Rotten Banana 
 
-Fresh Orange 🍊 / Rotten Orange 🍊
+Fresh Orange  / Rotten Orange 
 <hr>
 
 Roboflow tasks:
