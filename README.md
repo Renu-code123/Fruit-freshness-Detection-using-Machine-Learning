@@ -8,21 +8,16 @@ This project presents a deep learning-based solution to classify fruits as fresh
 
 2 . Trained the model on a dataset containing images of various fruits categorized as fresh or rotten.
 
-3  .Used Roboflow for image preprocessing, augmentation, and dataset pipeline generation.
+3  . Used Roboflow for image preprocessing, augmentation, and dataset pipeline generation.
 <hr>
 
 🧠 Tech Stack
-Python
-
-TensorFlow & Keras
-
-NumPy
-
-Matplotlib
-
-VS Code (Development Environment)
-
-Streamlit (Optional - for web demo deployment)
+1. Python
+2.TensorFlow & Keras
+3.NumPy
+4. Matplotlib
+5. VS Code (Development Environment)
+6. Streamlit (for web demo deployment)
 <hr>
 
 📂 Dataset
@@ -37,16 +32,14 @@ Fresh Banana  / Rotten Banana
 Fresh Orange  / Rotten Orange 
 <hr>
 
-Roboflow tasks:
-
-Upload raw images
-
-Apply augmentation techniques
-
-Export dataset in TensorFlow-compatible format
+CNN tasks:
+1. Upload raw images
+2. Apply augmentation techniques
+3 . Export dataset in TensorFlow-compatible format
 <hr>
 
 🧪 Model Architecture
+
 Input Layer: Resized fruit images to 224x224
 
 Convolutional Layers:
@@ -69,7 +62,8 @@ Optimizer: Adam
 Evaluation Metric: Accuracy
 <hr>
 
-✅ Results
+✅ Results:
+
 Achieved >90% accuracy on the validation dataset.
 
 Accurately classifies images into fresh or rotten categories across all fruit types.
